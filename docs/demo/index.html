@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bregman CLF: interactive demo</title>
+  <style>
+    :root { --blue: #1f5fa8; --red: #c0392b; --orange: #e08a1e; --green: #21b34c; --ink: #2b2b2b; --line: #e3e6ea; }
+    html, body { margin: 0; height: 100%; overflow: hidden; background: #fff; color: var(--ink);
+      font: 14px/1.4 "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
+    canvas { display: block; }
+    #panel { position: absolute; top: 12px; left: 12px; width: 268px; background: rgba(255,255,255,.94);
+      border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; box-sizing: border-box; }
+    #panel h1 { font-size: 15px; margin: 0 0 8px; }
+    .group { margin-top: 10px; }
+    .label { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #666; margin-bottom: 4px; }
+    .row { display: flex; gap: 6px; flex-wrap: wrap; }
+    button, select { font: inherit; padding: 5px 9px; border: 1px solid #c9ced6; border-radius: 6px; background: #fff; color: var(--ink); cursor: pointer; }
+    button:hover, select:hover { border-color: #8d95a1; }
+    button.primary { background: var(--ink); color: #fff; border-color: var(--ink); }
+    label.metric { display: flex; align-items: center; gap: 7px; cursor: pointer; padding: 2px 0; }
+    .swatch { width: 11px; height: 11px; border-radius: 50%; flex: none; }
+    table { width: 100%; border-collapse: collapse; margin-top: 4px; font-variant-numeric: tabular-nums; }
+    th, td { text-align: right; padding: 2px 0 2px 6px; font-weight: 400; white-space: nowrap; }
+    th:first-child, td:first-child { text-align: left; padding-left: 0; }
+    thead th { font-size: 11px; color: #666; border-bottom: 1px solid var(--line); }
+    td.out { color: var(--red); font-weight: 700; }
+    #time { color: #555; font-variant-numeric: tabular-nums; }
+    #hint { position: absolute; bottom: 10px; left: 12px; right: 12px; text-align: center; color: #666; font-size: 12px; pointer-events: none; }
+    #status { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center;
+      font-size: 15px; color: #555; background: #fff; padding: 0 24px; }
+    @media (max-width: 640px) { #panel { width: auto; right: 12px; } #hint { display: none; } }
+  </style>
+  <script type="importmap">
+    { "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+  <div id="panel" hidden>
+    <h1>Hessian vs. constant metric</h1>
+    <div class="group">
+      <div class="label">Backstepping metric</div>
+      <label class="metric"><input type="checkbox" data-metric="hessian" checked><span class="swatch" style="background:var(--blue)"></span>Hessian &nabla;&sup2;&psi;(x) (proposed)</label>
+      <label class="metric"><input type="checkbox" data-metric="constant" checked><span class="swatch" style="background:var(--red)"></span>Constant I</label>
+      <label class="metric"><input type="checkbox" data-metric="target"><span class="swatch" style="background:var(--orange)"></span>Constant &nabla;&sup2;&psi; at the target</label>
+    </div>
+    <div class="group">
+      <div class="label">Start (from the paper's study)</div>
+      <div class="row">
+        <select id="preset"></select>
+        <select id="speed" title="Playback speed">
+          <option value="1">real time</option><option value="0.25" selected>0.25&times;</option><option value="0.1">0.1&times;</option>
+        </select>
+      </div>
+    </div>
+    <div class="group row">
+      <button class="primary" id="restart" title="R">Restart</button>
+      <button id="pause" title="Space">Pause</button>
+      <button id="kick" title="K: push the end effector toward the nearest face, at a speed that braking at 20 m/s² can still stop (at most 0.5 m/s)">Kick</button>
+      <button id="target" title="T: new target 2 to 10 mm inside a random face">New target</button>
+    </div>
+    <div class="group">
+      <div class="label">State <span id="time"></span></div>
+      <table>
+        <thead><tr><th>metric</th><th>margin</th><th>needs</th><th>infeas.</th></tr></thead>
+        <tbody id="readout"></tbody>
+      </table>
+    </div>
+  </div>
+  <div id="hint">Drag to orbit, scroll to zoom. Green: keep-in set. Yellow: target. "Needs": least task acceleration [m/s&sup2;] that satisfies the Lyapunov constraint. Kick: a recoverable push toward the nearest face.</div>
+  <div id="status">Loading the simulator (about 5 MB)&hellip;</div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

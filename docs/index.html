@@ -33,6 +33,9 @@
         <a class="button is-dark is-rounded" href="https://github.com/domrachev03/bregman-clf">
           <span class="icon"><i class="fab fa-github"></i></span><span>Code</span>
         </a>
+        <a class="button is-dark is-rounded" href="#demo">
+          <span class="icon"><i class="fas fa-gamepad"></i></span><span>Demo</span>
+        </a>
         <a class="button is-dark is-rounded" href="#results">
           <span class="icon"><i class="fas fa-video"></i></span><span>Videos</span>
         </a>
@@ -79,7 +82,32 @@
   </div>
 </section>
 
-<section class="section alt">
+<section class="section alt" id="demo">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Interactive demo</h2>
+    <div class="demo-frame" id="demo-frame">
+      <img src="static/images/demo_poster.png" alt="The interactive demo: two simulated arms, one per metric, in a keep-in polytope.">
+      <button class="button is-dark is-rounded is-medium" id="demo-start">
+        <span class="icon"><i class="fas fa-play"></i></span><span>Run the demo in your browser</span>
+      </button>
+    </div>
+    <p class="caption">
+      The simulation and the controller run live in the browser (MuJoCo compiled to WebAssembly, about 5&nbsp;MB to load).
+      Each selected metric drives its own arm from the same start. Restart, change the start, set a new target near the boundary,
+      or kick the end effector toward the nearest face. <a href="demo/">Open fullscreen</a>.
+    </p>
+    <div class="content has-text-justified">
+      <p>
+        The demo re-implements the controller of the paper in JavaScript: the same law, Lyapunov constraint, gains, torque bounds and fallback,
+        with the dynamics terms from MuJoCo, the quadprog QP solver, and simpler joint-position rows.
+        On the four starts offered here it reproduces the logged runs of the paper: the same smallest margins (to 0.01&nbsp;mm) and the same shares of infeasible steps.
+        The kick is recoverable by construction: its speed is what braking at 20&nbsp;m/s&sup2; can still stop before the face.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">The idea</h2>
     <img src="static/images/fig_concept.png" alt="Level sets of the Bregman CLF, the metric schematic, and the acceleration demand near a face for the Hessian and constant metrics.">
@@ -123,7 +151,7 @@
   </div>
 </section>
 
-<section class="section" id="results">
+<section class="section alt" id="results">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Double integrator</h2>
     <video autoplay muted loop playsinline controls>
@@ -166,7 +194,7 @@
   </div>
 </section>
 
-<section class="section alt">
+<section class="section">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Torque-controlled manipulator</h2>
     <div class="content has-text-justified">
@@ -209,7 +237,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section alt">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Comparison and limits</h2>
     <div class="content has-text-justified">
@@ -230,7 +258,7 @@
   </div>
 </section>
 
-<section class="section alt" id="BibTeX">
+<section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title is-3">BibTeX</h2>
 <pre><code>@misc{bregmanclf2026,
@@ -252,6 +280,16 @@
     </p>
   </div>
 </footer>
+
+<script>
+  document.getElementById("demo-start").addEventListener("click", function () {
+    var frame = document.createElement("iframe");
+    frame.src = "demo/";
+    frame.title = "Interactive demo";
+    frame.setAttribute("allowfullscreen", "");
+    document.getElementById("demo-frame").replaceChildren(frame);
+  });
+</script>
 
 </body>
 </html>

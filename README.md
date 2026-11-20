@@ -4,6 +4,7 @@
 
 **[Project page](https://domrachev03.github.io/bregman-clf)** ·
 **[Paper (PDF)](https://domrachev03.github.io/bregman-clf/static/paper.pdf)** ·
+**[Interactive demo](https://domrachev03.github.io/bregman-clf/demo/)** ·
 **[Videos](https://domrachev03.github.io/bregman-clf/#results)**
 
 [![The idea: level sets of the Bregman CLF, the backstepping metric, and the acceleration demand near a face](docs/static/images/fig_concept.png)](https://domrachev03.github.io/bregman-clf)
@@ -149,5 +150,7 @@ results/                       stored results
 
 ## Notes
 
-- `docs/` holds the project page (GitHub Pages).
+- `docs/` holds the project page (GitHub Pages). `docs/demo/` is the browser demo: a JavaScript port of the
+  controller (`controller.js`) on MuJoCo compiled to WebAssembly. `docs/demo/model/` contains the KUKA iiwa 14
+  model of MuJoCo Menagerie under its own license (`docs/demo/model/LICENSE`).
 - A large language model assistant was used to help implement the experiments; the authors reviewed the code and results.
