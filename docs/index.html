@@ -50,7 +50,7 @@
       <source src="static/videos/manipulator_seed36.mp4" type="video/mp4">
     </video>
     <p class="caption">
-      Same simulated 7-DoF arm, same start near the boundary of a keep-in polytope, same target (green), same gains.
+      Same simulated 7-DoF arm, same start near the boundary of a keep-in polytope (green), same target (yellow), same gains.
       The only difference is the metric that weights the velocity error in the backstepping Lyapunov function.
       With a constant metric the end effector leaves the set by 70&nbsp;mm; with the Hessian metric it stays inside and reaches the target.
       Replay of logged trajectories, 4&times; slow motion.
@@ -230,20 +230,7 @@
   </div>
 </section>
 
-<section class="section alt">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3 has-text-centered">Reproduce</h2>
-    <div class="content">
-      <p>The repository holds the core implementation, the experiment scripts and configurations, and the small result files behind every number above.</p>
-<pre><code>git clone https://github.com/domrachev03/bregman-clf.git
-cd bregman-clf
-pixi install
-# see README.md for one command per table and figure</code></pre>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="BibTeX">
+<section class="section alt" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title is-3">BibTeX</h2>
 <pre><code>@misc{bregmanclf2026,

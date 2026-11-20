@@ -1,10 +1,24 @@
 # Bregman Control Lyapunov Functions
 
-Code for the numerical results of the paper "Bregman Control Lyapunov Functions: Hessian-Metric
-Backstepping for Convex State Constraints".
+### Hessian-Metric Backstepping for Convex State Constraints
 
-[Project page with videos](https://domrachev03.github.io/bregman-clf) ·
-[Paper (PDF)](https://domrachev03.github.io/bregman-clf/static/paper.pdf)
+**[Project page](https://domrachev03.github.io/bregman-clf)** ·
+**[Paper (PDF)](https://domrachev03.github.io/bregman-clf/static/paper.pdf)** ·
+**[Videos](https://domrachev03.github.io/bregman-clf/#results)**
+
+[![The idea: level sets of the Bregman CLF, the backstepping metric, and the acceleration demand near a face](docs/static/images/fig_concept.png)](https://domrachev03.github.io/bregman-clf)
+
+[![Constant metric leaves the keep-in set; Hessian metric stays inside](docs/static/images/manipulator_poster.png)](https://domrachev03.github.io/bregman-clf)
+
+A Bregman divergence of a barrier-type convex function is a control Lyapunov function whose sublevel
+sets lie inside the constraint set, so one Lyapunov constraint certifies convergence and safety. At
+relative degree two, the metric that weights the velocity error in backstepping decides whether the
+acceleration this constraint needs stays bounded up to the boundary: with the Hessian of the
+generating function it does (top right, blue); with any constant metric it grows like the inverse
+squared distance to a face. Bottom: the same simulated arm, start and target with a constant metric
+(left the set by 70 mm) and with the Hessian metric (inside).
+
+This repository holds the code for the numerical results of the paper.
 
 The repository contains
 
