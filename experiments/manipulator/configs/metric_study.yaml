@@ -1,0 +1,63 @@
+# Backstepping-metric study (Table II): Gamma = I, Hess psi(x_d), Hess psi(x), each with the rate
+# constraint (hard) and with the level constraint. 9 scenarios x 6 methods x 40 seeds = 2160 episodes.
+# Conditions per psi: nominal, 30 % torque bounds (_sat), near-boundary start (_near).
+name: metric_study
+output_dir: runs/metric_study
+scenarios:
+- name: iiwa_e1_polytope
+  options: {T: 1.5, dt: 0.001, margin: 0.02, psi: polytope}
+- name: iiwa_e1_polytope_sat
+  options: {T: 1.5, dt: 0.001, margin: 0.02, psi: polytope, tau_scale: 0.3}
+- name: iiwa_e1_polytope_near
+  options:
+    T: 1.5
+    dt: 0.001
+    margin: 0.02
+    psi: polytope
+    target_boundary_dist: [0.002, 0.01]
+    v0_frac: [0.3, 0.6]
+- name: iiwa_e1_ellipsoid
+  options: {T: 1.5, dt: 0.001, margin: 0.02, psi: ellipsoid}
+- name: iiwa_e1_ellipsoid_sat
+  options: {T: 1.5, dt: 0.001, margin: 0.02, psi: ellipsoid, tau_scale: 0.3}
+- name: iiwa_e1_ellipsoid_near
+  options:
+    T: 1.5
+    dt: 0.001
+    margin: 0.02
+    psi: ellipsoid
+    target_boundary_dist: [0.002, 0.01]
+    v0_frac: [0.3, 0.6]
+- name: iiwa_e1_entropy
+  options: {T: 1.5, dt: 0.001, margin: 0.02, psi: entropy}
+- name: iiwa_e1_entropy_sat
+  options: {T: 1.5, dt: 0.001, margin: 0.02, psi: entropy, tau_scale: 0.3}
+- name: iiwa_e1_entropy_near
+  options:
+    T: 1.5
+    dt: 0.001
+    margin: 0.02
+    psi: entropy
+    target_boundary_dist: [0.002, 0.01]
+    v0_frac: [0.3, 0.6]
+methods:
+- name: bregman_id
+  label: bs_constant_hard
+  kw: {k: 5.0, mu: 0.001, clf_mode: hard, bs_metric: constant, monitor_demand: true}
+- name: bregman_id
+  label: bs_constant_level
+  kw: {k: 5.0, mu: 0.001, clf_mode: level, bs_metric: constant, monitor_demand: true, soft_weight: 0.01}
+- name: bregman_id
+  label: bs_target_hard
+  kw: {k: 5.0, mu: 0.001, clf_mode: hard, bs_metric: target, monitor_demand: true}
+- name: bregman_id
+  label: bs_target_level
+  kw: {k: 5.0, mu: 0.001, clf_mode: level, bs_metric: target, monitor_demand: true, soft_weight: 0.01}
+- name: bregman_id
+  label: bs_hessian_hard
+  kw: {k: 5.0, mu: 0.001, clf_mode: hard, bs_metric: hessian, monitor_demand: true}
+- name: bregman_id
+  label: bs_hessian_level
+  kw: {k: 5.0, mu: 0.001, clf_mode: level, bs_metric: hessian, monitor_demand: true, soft_weight: 0.01}
+seeds: {n: 40, start: 0}
+metrics: {eps_v: 0.001, eps: 0.001, T_dl: 0.5, conv_tol: 0.001}

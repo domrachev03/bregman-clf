@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pixi/
+.cvxlbs_cache/
+.ruff_cache/
+runs/
+*.so
+*.npz
+.reference-wheels/
+# LaTeX fragments written by the report scripts (regenerate with the commands in README.md)
+results/**/*.tex

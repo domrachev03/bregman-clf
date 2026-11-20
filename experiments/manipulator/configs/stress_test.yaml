@@ -1,0 +1,63 @@
+# Exploratory stress test: fast starts toward the boundary, reduced torque bounds (t10/t05/t03 = 100/50/30 %),
+# box and 12-face polytope. 5 scenarios x 4 methods x 10 seeds = 200 episodes. Gains as in cbf_comparison.yaml.
+name: stress_test
+output_dir: runs/stress_test
+scenarios:
+- name: iiwa_e8_pilot_box_t10_v69
+  options:
+    T: 2.0
+    target_boundary_dist: [0.002, 0.01]
+    keep_in: box
+    v0_frac: [0.6, 0.9]
+- name: iiwa_e8_pilot_box_t05_v69
+  options:
+    T: 2.0
+    target_boundary_dist: [0.002, 0.01]
+    keep_in: box
+    v0_frac: [0.6, 0.9]
+    tau_scale: 0.5
+- name: iiwa_e8_pilot_box_t03_v47
+  options:
+    T: 2.0
+    target_boundary_dist: [0.002, 0.01]
+    keep_in: box
+    v0_frac: [0.4, 0.7]
+    tau_scale: 0.3
+- name: iiwa_e8_pilot_f12_t10_v69
+  options:
+    T: 2.0
+    target_boundary_dist: [0.002, 0.01]
+    v0_frac: [0.6, 0.9]
+    keep_in: polytope
+    n_faces_seed_points: 8
+    geometry_seed: 0
+    half_width: 0.2
+    polytope_radius_min: 0.98
+- name: iiwa_e8_pilot_f12_t05_v69
+  options:
+    T: 2.0
+    target_boundary_dist: [0.002, 0.01]
+    v0_frac: [0.6, 0.9]
+    tau_scale: 0.5
+    keep_in: polytope
+    n_faces_seed_points: 8
+    geometry_seed: 0
+    half_width: 0.2
+    polytope_radius_min: 0.98
+methods:
+- name: bregman_id
+  label: bregman_id_level
+  kw: {mu: 0.001, clf_mode: level, k: 5.0, soft_weight: 0.01}
+- name: bregman_id
+  label: bregman_id_hard
+  kw: {mu: 0.001, k: 5.0}
+- name: clf_aecbf
+  label: clf_aecbf
+  kw: {eps: 0.2, alpha: 5.0, clf_slack_weight: 0.001}
+- name: tsid_cbf
+  label: tsid_cbf
+  kw:
+    gains: {kp: 30.0, kd: 10.954451150103322}
+    alpha: 80.0
+seeds: {n: 10, start: 500}
+metrics: {eps_v: 0.001, eps: 0.005, T_dl: 0.5, conv_tol: 0.005}

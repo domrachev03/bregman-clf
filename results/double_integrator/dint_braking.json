@@ -1,0 +1,3512 @@
+{
+ "braking_a10": [
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.27546025629553655,
+   "err": 0.004636315057890827,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3079363763345418,
+   "err": 0.002416413732316748,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1474027969554181,
+   "err": 0.004662389532746566,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07483062827596888,
+   "err": 0.00508046181160879,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08675590262485715,
+   "err": 0.0051887270043495404,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21084405191871644,
+   "err": 0.0015912765045302142,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1722981209858084,
+   "err": 0.003413972424898697,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0015329930706441707,
+   "err": 0.0047165018923799,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 130,
+   "min_margin": -0.00021542364859215417,
+   "err": 1.0300511644392136,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18840223103709933,
+   "err": 0.004616869464947429,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17314363090246676,
+   "err": 0.003727522558143522,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3286277667519152,
+   "err": 0.003044360348870834,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.11483097992143912,
+   "err": 0.0028680966540336568,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14283706503379998,
+   "err": 0.004264219149115175,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5791497714410104,
+   "err": 0.0028825953747039184,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.13356180954823416,
+   "err": 0.001722950945563337,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 149,
+   "min_margin": -5.925378739250272e-05,
+   "err": 0.771044428863537,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 28,
+   "min_margin": -8.296432557171184e-05,
+   "err": 1.5211130131196704,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1211670868600862,
+   "err": 0.002680363586264969,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.030892801592033836,
+   "err": 0.0005758612689728482,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.6073584630428215,
+   "err": 0.002918478891751399,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3142355486581957,
+   "err": 0.005686736579245326,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00030202192410612417,
+   "err": 0.0015940296865232407,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3010000374641711,
+   "err": 0.00280438955678025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22419404080475752,
+   "err": 0.004967074790258967,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06804268065844613,
+   "err": 0.00028445058061408156,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00114938661311253,
+   "err": 0.004045522497500152,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.02605985952883238,
+   "err": 0.004522877107732816,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10431540065059348,
+   "err": 0.0023261023931884744,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16499151750714933,
+   "err": 0.003319584660685866,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.027218629602819733,
+   "err": 0.003906967110694795,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.133409812432499,
+   "err": 0.001488729167625439,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24013722251553887,
+   "err": 0.003970735891368711,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14136625751493662,
+   "err": 0.004521888500947137,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4501400190321236,
+   "err": 0.0022120777528172766,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.029750717261175594,
+   "err": 0.004361315592857002,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.001057459622581285,
+   "err": 0.0016974572454977895,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1765611214420092,
+   "err": 0.005023571318882262,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04531692142107172,
+   "err": 0.004292223933643996,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3037216006613601,
+   "err": 0.003080551781223016,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18633515847003337,
+   "err": 0.0038208502662720545,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.45378483041474627,
+   "err": 0.00301582013449499,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 223,
+   "min_margin": -7.102482102224107e-06,
+   "err": 1.100029940362555,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.05235803362126861,
+   "err": 0.005391454874216151,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.33827418052436736,
+   "err": 0.002665092337938114,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1432496539619993,
+   "err": 0.0027621389058687957,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2962513265742014,
+   "err": 0.0026949417538914625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0008747326635996133,
+   "err": 0.0018587553096733355,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14513425861683937,
+   "err": 0.005092743611839397,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10504986478987069,
+   "err": 0.00038502083354439596,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.000657442117175367,
+   "err": 0.001728708631096767,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 302,
+   "min_margin": -5.0306492853002946e-05,
+   "err": 1.2952445958928318,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03655990888279807,
+   "err": 0.0031574467820687925,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06116834710607675,
+   "err": 0.0032072888275823837,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.36117381568299656,
+   "err": 0.0031493045734028923,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5571247429818866,
+   "err": 0.0031381679473369032,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5652402267610157,
+   "err": 0.0022065333790048016,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 233,
+   "min_margin": -6.601157246633283e-05,
+   "err": 1.3351612061009177,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.30168119401800947,
+   "err": 0.0017565343627237828,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3993347890834461,
+   "err": 0.0014014133091149713,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2814029912468647,
+   "err": 0.004250704400777704,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.020516568399995157,
+   "err": 0.002941161933567722,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04639321396036598,
+   "err": 0.003974022041418384,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22118825870896927,
+   "err": 0.0007088492710870887,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0003397469223712998,
+   "err": 0.0008390467543123396,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07201536781694083,
+   "err": 0.005712427108349361,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06644809055994032,
+   "err": 0.00509760570417403,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17276429906341711,
+   "err": 0.004890775640191773,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.15049985732969867,
+   "err": 0.004219842289017342,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 614,
+   "min_margin": -0.00011633134023609194,
+   "err": 0.7069673231959761,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.024508451038938037,
+   "err": 0.005482534657314046,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09759083035005785,
+   "err": 0.002752730800029039,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 333,
+   "min_margin": -3.106563580739268e-05,
+   "err": 0.6395208260437849,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3831905118732814,
+   "err": 0.005428380096863078,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00031359640917220347,
+   "err": 0.003584886034261798,
+   "start": "undetermined"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18716803504848475,
+   "err": 0.0009331732926046796,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18146199626207224,
+   "err": 0.00460491894451442,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22017620032797763,
+   "err": 0.006029885409452805,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1580300365334097,
+   "err": 0.0016337053466370295,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1270998123487733,
+   "err": 0.004613397844416684,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20053853389645496,
+   "err": 0.0016808295486144625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14159499535443454,
+   "err": 0.0019036626639842165,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.28730469307316425,
+   "err": 0.004748979365989322,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.12025681039407299,
+   "err": 0.0029855907054498186,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002533282820424241,
+   "err": 0.0023216608693743318,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03148207385687092,
+   "err": 0.0026259191988151956,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09981415026150792,
+   "err": 0.0021035005581633752,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 118,
+   "min_margin": -2.651943446502035e-06,
+   "err": 1.5193089771736121,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.01311113018570809,
+   "err": 0.0012691575523371742,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21758471802723867,
+   "err": 0.005203777248254532,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08572781320638867,
+   "err": 0.003383229527805818,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3452723041581277,
+   "err": 0.004056534075068152,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4001942941691497,
+   "err": 0.0031810000989544486,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 141,
+   "min_margin": -0.00014591134538331898,
+   "err": 1.6616379428448727,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24810083239282466,
+   "err": 0.004914999169814085,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20018980046527252,
+   "err": 0.003867155945896836,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06695765234785717,
+   "err": 0.003378435837600702,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14120883438716372,
+   "err": 0.00012300248118929025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16432465447892627,
+   "err": 0.003957496729521193,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5103678123557627,
+   "err": 0.00227577889701847,
+   "start": "recoverable"
+  }
+ ],
+ "braking_a30": [
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.27546025629553655,
+   "err": 0.004636315057890827,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3079363763345418,
+   "err": 0.002416413732316748,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1474027969554181,
+   "err": 0.004662389532746566,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07483062827596888,
+   "err": 0.00508046181160879,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08675590262485715,
+   "err": 0.0051887270043495404,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21084405191871644,
+   "err": 0.0015912765045302142,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1722981209858084,
+   "err": 0.003413972424898697,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0032836824702068904,
+   "err": 0.0047215344241340555,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 105,
+   "min_margin": -6.329110524928272e-05,
+   "err": 1.0306999840560176,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18840223103709933,
+   "err": 0.004616869464947429,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17314363090246676,
+   "err": 0.003727522558143522,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3286277667519152,
+   "err": 0.003044360348870834,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.11483097992143912,
+   "err": 0.0028680966540336568,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14283706503379998,
+   "err": 0.004264219149115175,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5791497714410104,
+   "err": 0.0028825953747039184,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.13356180954823416,
+   "err": 0.001722950945563337,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0009442012434044318,
+   "err": 0.0025883292101765982,
+   "start": "recoverable"
+  },
+  {
+   "exit": true,
+   "infeas": 21,
+   "min_margin": -3.3917085602484066e-06,
+   "err": 1.521114021488598,
+   "start": "unrecoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1211670868600862,
+   "err": 0.002680363586264969,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.030892801592033836,
+   "err": 0.0005758612689728482,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.6073584630428215,
+   "err": 0.002918478891751399,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.31737085525453856,
+   "err": 0.005654922443407946,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00030885946339934123,
+   "err": 0.0015967818442330166,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3010000374641711,
+   "err": 0.00280438955678025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2241940203022468,
+   "err": 0.0049670544393476315,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06804268065844613,
+   "err": 0.00028445058061408156,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002968721065090214,
+   "err": 0.0040654618008869395,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.02605985952883238,
+   "err": 0.004522877107732816,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10431540065059348,
+   "err": 0.0023261023931884744,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16499151750714933,
+   "err": 0.003319584660685866,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.027218629602819733,
+   "err": 0.003906967110694795,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.133409812432499,
+   "err": 0.001488729167625439,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24013722251553887,
+   "err": 0.003970735891368711,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14136625751493662,
+   "err": 0.004521888500947137,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4501400190321236,
+   "err": 0.0022120777528172766,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.029750717261175594,
+   "err": 0.004361315592857002,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0012539903992699053,
+   "err": 0.0017122839232255143,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1765611214420092,
+   "err": 0.005023571318882262,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04531692142107172,
+   "err": 0.004292223933643996,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3037216006613601,
+   "err": 0.003080551781223016,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18633515847003337,
+   "err": 0.0038208502662720545,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.45378483041474627,
+   "err": 0.00301582013449499,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0036608633714529655,
+   "err": 0.0037979229670990987,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.05235803362126861,
+   "err": 0.005391454874216151,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.33827418052436736,
+   "err": 0.002665092337938114,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1432496539619993,
+   "err": 0.0027621389058687957,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2962513265742014,
+   "err": 0.0026949417538914625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00217610841364444,
+   "err": 0.0019179849936302282,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14513425861683937,
+   "err": 0.005092743611839397,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10504986478987069,
+   "err": 0.00038502083354439596,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0006954872364762947,
+   "err": 0.0017336803807902318,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0042998018103004776,
+   "err": 0.004541415218148512,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03655990888279807,
+   "err": 0.0031574467820687925,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06116834710607675,
+   "err": 0.0032072888275823837,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.36117381568299656,
+   "err": 0.0031493045734028923,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5571247429818866,
+   "err": 0.0031381679473369032,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5652402267610157,
+   "err": 0.0022065333790048016,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0006273232771597754,
+   "err": 0.004693725871907345,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.30168119401800947,
+   "err": 0.0017565343627237828,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3993347890834461,
+   "err": 0.0014014133091149713,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2814029912468647,
+   "err": 0.004250704400777704,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.020516568399995157,
+   "err": 0.002941161933567722,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04639321396036598,
+   "err": 0.003974022041418384,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22118825870896927,
+   "err": 0.0007088492710870887,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00044158169346957514,
+   "err": 0.0008650427292958985,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07201536781694083,
+   "err": 0.005712427108349361,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06644809055994032,
+   "err": 0.00509760570417403,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17276429906341711,
+   "err": 0.004890775640191773,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.15049985732969867,
+   "err": 0.004219842289017342,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002145726274571741,
+   "err": 0.0024072459121843547,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.024538310118484105,
+   "err": 0.005482199761492963,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09759083035005785,
+   "err": 0.002752730800029039,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002477603801437234,
+   "err": 0.0021672696711286616,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.38579214749598867,
+   "err": 0.00540353384709655,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0018900889707383125,
+   "err": 0.0036030641882945974,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18716803504848475,
+   "err": 0.0009331732926046796,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18146199626207224,
+   "err": 0.00460491894451442,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22017987758446544,
+   "err": 0.006029835023273583,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1580300365334097,
+   "err": 0.0016337053466370295,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1270998123487733,
+   "err": 0.004613397844416684,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20053853389645496,
+   "err": 0.0016808295486144625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14159499535443454,
+   "err": 0.0019036626639842165,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.28730469307316425,
+   "err": 0.004748979365989322,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.12025681039407299,
+   "err": 0.0029855907054498186,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002533282820424241,
+   "err": 0.0023216608693743318,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03148207385687092,
+   "err": 0.0026259191988151956,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09981415026150792,
+   "err": 0.0021035005581633752,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0014432706355464267,
+   "err": 0.0050351455034888465,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.01311113018570809,
+   "err": 0.0012691575523371742,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21758471802723867,
+   "err": 0.005203777248254532,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08572781320638867,
+   "err": 0.003383229527805818,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3452723041581277,
+   "err": 0.004056534075068152,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4001942941691497,
+   "err": 0.0031810000989544486,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00044596167274052115,
+   "err": 0.005472194845381467,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24810083239282466,
+   "err": 0.004914999169814085,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20018980046527252,
+   "err": 0.003867155945896836,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06695765234785717,
+   "err": 0.003378435837600702,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14120883438716372,
+   "err": 0.00012300248118929025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16432465447892627,
+   "err": 0.003957496729521193,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5103678123557627,
+   "err": 0.00227577889701847,
+   "start": "recoverable"
+  }
+ ],
+ "braking_a100": [
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.27546025629553655,
+   "err": 0.004636315057890827,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3079363763345418,
+   "err": 0.002416413732316748,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1474027969554181,
+   "err": 0.004662389532746566,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07483062827596888,
+   "err": 0.00508046181160879,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08675590262485715,
+   "err": 0.0051887270043495404,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21084405191871644,
+   "err": 0.0015912765045302142,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1722981209858084,
+   "err": 0.003413972424898697,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0037424418407044227,
+   "err": 0.004727808882122103,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.003465436629943652,
+   "err": 0.0035903744617755075,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18840223103709933,
+   "err": 0.004616869464947429,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17314363090246676,
+   "err": 0.003727522558143522,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3286277667519152,
+   "err": 0.003044360348870834,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.11483097992143912,
+   "err": 0.0028680966540336568,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14283706503379998,
+   "err": 0.004264219149115175,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5791497714410104,
+   "err": 0.0028825953747039184,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.13356180954823416,
+   "err": 0.001722950945563337,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0009677536733001964,
+   "err": 0.0026020730517383127,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0009306564117504251,
+   "err": 0.004760983831420304,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1211670868600862,
+   "err": 0.002680363586264969,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.030892801592033836,
+   "err": 0.0005758612689728482,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.6073584630428215,
+   "err": 0.002918478891751399,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.31737085525453856,
+   "err": 0.005654922443407946,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0003112219941343364,
+   "err": 0.0015976641074905637,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3010000374641711,
+   "err": 0.00280438955678025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2241940203022468,
+   "err": 0.0049670544393476315,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06804268065844613,
+   "err": 0.00028445058061408156,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.003325869821406447,
+   "err": 0.00407571882213239,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.02605985952883238,
+   "err": 0.004522877107732816,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10431540065059348,
+   "err": 0.0023261023931884744,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16499151750714933,
+   "err": 0.003319584660685866,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.027218629602819733,
+   "err": 0.003906967110694795,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.133409812432499,
+   "err": 0.001488729167625439,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24013722251553887,
+   "err": 0.003970735891368711,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14136625751493662,
+   "err": 0.004521888500947137,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4501400190321236,
+   "err": 0.0022120777528172766,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.029750717261175594,
+   "err": 0.004361315592857002,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0012971975813460635,
+   "err": 0.0017169888197108927,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1765611214420092,
+   "err": 0.005023571318882262,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04531692142107172,
+   "err": 0.004292223933643996,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3037216006613601,
+   "err": 0.003080551781223016,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18633515847003337,
+   "err": 0.0038208502662720545,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.45378483041474627,
+   "err": 0.00301582013449499,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.004505405770591497,
+   "err": 0.0038383884735931095,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.05235803362126861,
+   "err": 0.005391454874216151,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.33827418052436736,
+   "err": 0.002665092337938114,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1432496539619993,
+   "err": 0.0027621389058687957,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2962513265742014,
+   "err": 0.0026949417538914625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0023287509385084993,
+   "err": 0.0019397566066881066,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14513425861683937,
+   "err": 0.005092743611839397,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10504986478987069,
+   "err": 0.00038502083354439596,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0007078861980824409,
+   "err": 0.0017352983817201508,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.006272055114275486,
+   "err": 0.0045868646297231915,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03655990888279807,
+   "err": 0.0031574467820687925,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06116834710607675,
+   "err": 0.0032072888275823837,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.36117381568299656,
+   "err": 0.0031493045734028923,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5571247429818866,
+   "err": 0.0031381679473369032,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5652402267610157,
+   "err": 0.0022065333790048016,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.006953571842570563,
+   "err": 0.005017445936441081,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.30168119401800947,
+   "err": 0.0017565343627237828,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3993347890834461,
+   "err": 0.0014014133091149713,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2814029912468647,
+   "err": 0.004250704400777704,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.020516568399995157,
+   "err": 0.002941161933567722,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04639321396036598,
+   "err": 0.003974022041418384,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22118825870896927,
+   "err": 0.0007088492710870887,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0004464331186586269,
+   "err": 0.0008714702285216863,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07201536781694083,
+   "err": 0.005712427108349361,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06644809055994032,
+   "err": 0.00509760570417403,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17276429906341711,
+   "err": 0.004890775640191773,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.15049985732969867,
+   "err": 0.004219842289017342,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0023080471266567234,
+   "err": 0.0024670270265486644,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.024538310118484105,
+   "err": 0.005482199761492963,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09759083035005785,
+   "err": 0.002752730800029039,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002721842563054762,
+   "err": 0.0022269652355509707,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.38579214749598867,
+   "err": 0.00540353384709655,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00200472118649095,
+   "err": 0.003611839582870908,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18716803504848475,
+   "err": 0.0009331732926046796,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18146199626207224,
+   "err": 0.00460491894451442,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22017987758446544,
+   "err": 0.006029835023273583,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1580300365334097,
+   "err": 0.0016337053466370295,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1270998123487733,
+   "err": 0.004613397844416684,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20053853389645496,
+   "err": 0.0016808295486144625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14159499535443454,
+   "err": 0.0019036626639842165,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.28730469307316425,
+   "err": 0.004748979365989322,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.12025681039407299,
+   "err": 0.0029855907054498186,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002533282820424241,
+   "err": 0.0023216608693743318,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03148207385687092,
+   "err": 0.0026259191988151956,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09981415026150792,
+   "err": 0.0021035005581633752,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.006108713355032184,
+   "err": 0.005087985505488347,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.01311113018570809,
+   "err": 0.0012691575523371742,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21758471802723867,
+   "err": 0.005203777248254532,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08572781320638867,
+   "err": 0.003383229527805818,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3452723041581277,
+   "err": 0.004056534075068152,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4001942941691497,
+   "err": 0.0031810000989544486,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.007829943276260213,
+   "err": 0.005617137733441268,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24810083239282466,
+   "err": 0.004914999169814085,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20018980046527252,
+   "err": 0.003867155945896836,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06695765234785717,
+   "err": 0.003378435837600702,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14120883438716372,
+   "err": 0.00012300248118929025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16432465447892627,
+   "err": 0.003957496729521193,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5103678123557627,
+   "err": 0.00227577889701847,
+   "start": "recoverable"
+  }
+ ],
+ "braking_a1000": [
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.27546025629553655,
+   "err": 0.004636315057890827,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3079363763345418,
+   "err": 0.002416413732316748,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1474027969554181,
+   "err": 0.004662389532746566,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07483062827596888,
+   "err": 0.00508046181160879,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08675590262485715,
+   "err": 0.0051887270043495404,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21084405191871644,
+   "err": 0.0015912765045302142,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1722981209858084,
+   "err": 0.003413972424898697,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0038873595953721114,
+   "err": 0.004730508556469632,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0035884741678140954,
+   "err": 0.00364231921183801,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18840223103709933,
+   "err": 0.004616869464947429,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17314363090246676,
+   "err": 0.003727522558143522,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3286277667519152,
+   "err": 0.003044360348870834,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.11483097992143912,
+   "err": 0.0028680966540336568,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14283706503379998,
+   "err": 0.004264219149115175,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5791497714410104,
+   "err": 0.0028825953747039184,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.13356180954823416,
+   "err": 0.001722950945563337,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0009766904106308168,
+   "err": 0.0026053847274667813,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002635152411043263,
+   "err": 0.0047469518745771825,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1211670868600862,
+   "err": 0.002680363586264969,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.030892801592033836,
+   "err": 0.0005758612689728482,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.6073584630428215,
+   "err": 0.002918478891751399,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.31737085525453856,
+   "err": 0.005654922443407946,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0003126740510512224,
+   "err": 0.0015980119631621762,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3010000374641711,
+   "err": 0.00280438955678025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2241940203022468,
+   "err": 0.0049670544393476315,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06804268065844613,
+   "err": 0.00028445058061408156,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0034385878792150253,
+   "err": 0.004079421302584699,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.02605985952883238,
+   "err": 0.004522877107732816,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10431540065059348,
+   "err": 0.0023261023931884744,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16499151750714933,
+   "err": 0.003319584660685866,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.027218629602819733,
+   "err": 0.003906967110694795,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.133409812432499,
+   "err": 0.001488729167625439,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24013722251553887,
+   "err": 0.003970735891368711,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14136625751493662,
+   "err": 0.004521888500947137,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4501400190321236,
+   "err": 0.0022120777528172766,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.029750717261175594,
+   "err": 0.004361315592857002,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0013134539109387667,
+   "err": 0.0017186881303333078,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1765611214420092,
+   "err": 0.005023571318882262,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04531692142107172,
+   "err": 0.004292223933643996,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3037216006613601,
+   "err": 0.003080551781223016,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18633515847003337,
+   "err": 0.0038208502662720545,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.45378483041474627,
+   "err": 0.00301582013449499,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.004721543247264152,
+   "err": 0.0038529606558624337,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.05235803362126861,
+   "err": 0.005391454874216151,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.33827418052436736,
+   "err": 0.002665092337938114,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1432496539619993,
+   "err": 0.0027621389058687957,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2962513265742014,
+   "err": 0.0026949417538914625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002382252740533597,
+   "err": 0.0019472335732479396,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14513425861683937,
+   "err": 0.005092743611839397,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10504986478987069,
+   "err": 0.00038502083354439596,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0007129842583883625,
+   "err": 0.0017359047823629003,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0067243340749321276,
+   "err": 0.0046089255486250055,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03655990888279807,
+   "err": 0.0031574467820687925,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06116834710607675,
+   "err": 0.0032072888275823837,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.36117381568299656,
+   "err": 0.0031493045734028923,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5571247429818866,
+   "err": 0.0031381679473369032,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5652402267610157,
+   "err": 0.0022065333790048016,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.007533417239761082,
+   "err": 0.005121409422483881,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.30168119401800947,
+   "err": 0.0017565343627237828,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3993347890834461,
+   "err": 0.0014014133091149713,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2814029912468647,
+   "err": 0.004250704400777704,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.020516568399995157,
+   "err": 0.002941161933567722,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04639321396036598,
+   "err": 0.003974022041418384,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22118825870896927,
+   "err": 0.0007088492710870887,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0004489478241304008,
+   "err": 0.0008737201258869639,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07201536781694083,
+   "err": 0.005712427108349361,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06644809055994032,
+   "err": 0.00509760570417403,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17276429906341711,
+   "err": 0.004890775640191773,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.15049985732969867,
+   "err": 0.004219842289017342,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002360487041138505,
+   "err": 0.0024858466047708557,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.024538310118484105,
+   "err": 0.005482199761492963,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09759083035005785,
+   "err": 0.002752730800029039,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0027958088018027825,
+   "err": 0.0022440938054323124,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.38579214749598867,
+   "err": 0.00540353384709655,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002043972330548739,
+   "err": 0.0036146846063713836,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18716803504848475,
+   "err": 0.0009331732926046796,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18146199626207224,
+   "err": 0.00460491894451442,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22017987758446544,
+   "err": 0.006029835023273583,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1580300365334097,
+   "err": 0.0016337053466370295,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1270998123487733,
+   "err": 0.004613397844416684,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20053853389645496,
+   "err": 0.0016808295486144625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14159499535443454,
+   "err": 0.0019036626639842165,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.28730469307316425,
+   "err": 0.004748979365989322,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.12025681039407299,
+   "err": 0.0029855907054498186,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002533282820424241,
+   "err": 0.0023216608693743318,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03148207385687092,
+   "err": 0.0026259191988151956,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09981415026150792,
+   "err": 0.0021035005581633752,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.007439110855410931,
+   "err": 0.0051229077720339015,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.01311113018570809,
+   "err": 0.0012691575523371742,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21758471802723867,
+   "err": 0.005203777248254532,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08572781320638867,
+   "err": 0.003383229527805818,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3452723041581277,
+   "err": 0.004056534075068152,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4001942941691497,
+   "err": 0.0031810000989544486,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.009337611215752705,
+   "err": 0.005700467572634974,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24810083239282466,
+   "err": 0.004914999169814085,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20018980046527252,
+   "err": 0.003867155945896836,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06695765234785717,
+   "err": 0.003378435837600702,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14120883438716372,
+   "err": 0.00012300248118929025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16432465447892627,
+   "err": 0.003957496729521193,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5103678123557627,
+   "err": 0.00227577889701847,
+   "start": "recoverable"
+  }
+ ],
+ "braking_a3000": [
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.27546025629553655,
+   "err": 0.004636315057890827,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3079363763345418,
+   "err": 0.002416413732316748,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1474027969554181,
+   "err": 0.004662389532746566,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07483062827596888,
+   "err": 0.00508046181160879,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08675590262485715,
+   "err": 0.0051887270043495404,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21084405191871644,
+   "err": 0.0015912765045302142,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1722981209858084,
+   "err": 0.003413972424898697,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.003897802764353772,
+   "err": 0.004730705100674708,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0035974676789832702,
+   "err": 0.0036454411667015576,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18840223103709933,
+   "err": 0.004616869464947429,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17314363090246676,
+   "err": 0.003727522558143522,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3286277667519152,
+   "err": 0.003044360348870834,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.11483097992143912,
+   "err": 0.0028680966540336568,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14283706503379998,
+   "err": 0.004264219149115175,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5791497714410104,
+   "err": 0.0028825953747039184,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.13356180954823416,
+   "err": 0.001722950945563337,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0009787095844870357,
+   "err": 0.0026056269377284884,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0028282787143555877,
+   "err": 0.004707036261927069,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1211670868600862,
+   "err": 0.002680363586264969,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.030892801592033836,
+   "err": 0.0005758612689728482,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.6073584630428215,
+   "err": 0.002918478891751399,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.31737085525453856,
+   "err": 0.005654922443407946,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0003156684713587223,
+   "err": 0.0015981002894740013,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3010000374641711,
+   "err": 0.00280438955678025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2241940203022468,
+   "err": 0.0049670544393476315,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06804268065844613,
+   "err": 0.00028445058061408156,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0034469905738454786,
+   "err": 0.004079681970811978,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.02605985952883238,
+   "err": 0.004522877107732816,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10431540065059348,
+   "err": 0.0023261023931884744,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16499151750714933,
+   "err": 0.003319584660685866,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.027218629602819733,
+   "err": 0.003906967110694795,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.133409812432499,
+   "err": 0.001488729167625439,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24013722251553887,
+   "err": 0.003970735891368711,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14136625751493662,
+   "err": 0.004521888500947137,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4501400190321236,
+   "err": 0.0022120777528172766,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.029750717261175594,
+   "err": 0.004361315592857002,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0013152295241482936,
+   "err": 0.0017188485285940342,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1765611214420092,
+   "err": 0.005023571318882262,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04531692142107172,
+   "err": 0.004292223933643996,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3037216006613601,
+   "err": 0.003080551781223016,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18633515847003337,
+   "err": 0.0038208502662720545,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.45378483041474627,
+   "err": 0.00301582013449499,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00473709213362185,
+   "err": 0.0038539797600440056,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.05235803362126861,
+   "err": 0.005391454874216151,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.33827418052436736,
+   "err": 0.002665092337938114,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1432496539619993,
+   "err": 0.0027621389058687957,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2962513265742014,
+   "err": 0.0026949417538914625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0023862823135725082,
+   "err": 0.0019477888258295425,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14513425861683937,
+   "err": 0.005092743611839397,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.10504986478987069,
+   "err": 0.00038502083354439596,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0007146345726745753,
+   "err": 0.0017360876450656579,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.006755683725492646,
+   "err": 0.004610456141546805,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03655990888279807,
+   "err": 0.0031574467820687925,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06116834710607675,
+   "err": 0.0032072888275823837,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.36117381568299656,
+   "err": 0.0031493045734028923,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5571247429818866,
+   "err": 0.0031381679473369032,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5652402267610157,
+   "err": 0.0022065333790048016,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.007572914382478418,
+   "err": 0.005127862048353531,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.30168119401800947,
+   "err": 0.0017565343627237828,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3993347890834461,
+   "err": 0.0014014133091149713,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.2814029912468647,
+   "err": 0.004250704400777704,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.020516568399995157,
+   "err": 0.002941161933567722,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.04639321396036598,
+   "err": 0.003974022041418384,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22118825870896927,
+   "err": 0.0007088492710870887,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0004506106403060579,
+   "err": 0.0008739839785892384,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.07201536781694083,
+   "err": 0.005712427108349361,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06644809055994032,
+   "err": 0.00509760570417403,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.17276429906341711,
+   "err": 0.004890775640191773,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.15049985732969867,
+   "err": 0.004219842289017342,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0023647032013135857,
+   "err": 0.002487181964110892,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.024538310118484105,
+   "err": 0.005482199761492963,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09759083035005785,
+   "err": 0.002752730800029039,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002801406047655455,
+   "err": 0.0022452739081802874,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.38579214749598867,
+   "err": 0.00540353384709655,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0020473041362840476,
+   "err": 0.0036153863263386796,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18716803504848475,
+   "err": 0.0009331732926046796,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.18146199626207224,
+   "err": 0.00460491894451442,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.22017987758446544,
+   "err": 0.006029835023273583,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1580300365334097,
+   "err": 0.0016337053466370295,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.1270998123487733,
+   "err": 0.004613397844416684,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20053853389645496,
+   "err": 0.0016808295486144625,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14159499535443454,
+   "err": 0.0019036626639842165,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.28730469307316425,
+   "err": 0.004748979365989322,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.12025681039407299,
+   "err": 0.0029855907054498186,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.002533282820424241,
+   "err": 0.0023216608693743318,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.03148207385687092,
+   "err": 0.0026259191988151956,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.09981415026150792,
+   "err": 0.0021035005581633752,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.0077502995642402895,
+   "err": 0.005121086729644302,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.01311113018570809,
+   "err": 0.0012691575523371742,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.21758471802723867,
+   "err": 0.005203777248254532,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.08572781320638867,
+   "err": 0.003383229527805818,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.3452723041581277,
+   "err": 0.004056534075068152,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.4001942941691497,
+   "err": 0.0031810000989544486,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.00939869843451795,
+   "err": 0.005707007576413448,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.24810083239282466,
+   "err": 0.004914999169814085,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.20018980046527252,
+   "err": 0.003867155945896836,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.06695765234785717,
+   "err": 0.003378435837600702,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.14120883438716372,
+   "err": 0.00012300248118929025,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.16432465447892627,
+   "err": 0.003957496729521193,
+   "start": "recoverable"
+  },
+  {
+   "exit": false,
+   "infeas": 0,
+   "min_margin": 0.5103678123557627,
+   "err": 0.00227577889701847,
+   "start": "recoverable"
+  }
+ ]
+}

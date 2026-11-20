@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bregman Control Lyapunov Functions: Hessian-metric backstepping for convex state constraints. One Lyapunov constraint for convergence and safety, with an acceleration demand that stays bounded up to the boundary.">
+  <title>Bregman Control Lyapunov Functions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Castoro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <script>
+    window.MathJax = { tex: { inlineMath: [['$', '$']] } };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop has-text-centered">
+      <h1 class="title is-1 publication-title">Bregman Control Lyapunov Functions</h1>
+      <h2 class="subtitle is-3 publication-subtitle">Hessian-Metric Backstepping for Convex State Constraints</h2>
+      <div class="is-size-5 publication-authors">
+        <span class="author-block">Ivan Domrachev</span>
+        <span class="author-block has-text-grey">and co-authors (author list to be finalized)</span>
+      </div>
+      <div class="is-size-6 publication-venue has-text-grey">Preprint, 2026</div>
+      <div class="publication-links">
+        <a class="button is-dark is-rounded" href="static/paper.pdf">
+          <span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper</span>
+        </a>
+        <a class="button is-dark is-rounded" href="https://github.com/domrachev03/bregman-clf">
+          <span class="icon"><i class="fab fa-github"></i></span><span>Code</span>
+        </a>
+        <a class="button is-dark is-rounded" href="#results">
+          <span class="icon"><i class="fas fa-video"></i></span><span>Videos</span>
+        </a>
+        <a class="button is-dark is-rounded" href="https://github.com/domrachev03/bregman-clf/tree/main/results">
+          <span class="icon"><i class="fas fa-database"></i></span><span>Data</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section teaser">
+  <div class="container is-max-desktop">
+    <video autoplay muted loop playsinline controls poster="static/images/manipulator_poster.png">
+      <source src="static/videos/manipulator_seed36.mp4" type="video/mp4">
+    </video>
+    <p class="caption">
+      Same simulated 7-DoF arm, same start near the boundary of a keep-in polytope, same target (green), same gains.
+      The only difference is the metric that weights the velocity error in the backstepping Lyapunov function.
+      With a constant metric the end effector leaves the set by 70&nbsp;mm; with the Hessian metric it stays inside and reaches the target.
+      Replay of logged trajectories, 4&times; slow motion.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Abstract</h2>
+    <div class="content has-text-justified">
+      <p>
+        A Bregman divergence $D_\psi(x_d, x)$ of a barrier-type convex function $\psi$ is a control Lyapunov function whose
+        sublevel sets lie inside the constraint set, so a single Lyapunov constraint certifies both convergence to $x_d$ and safety.
+        At relative degree two, as for mechanical systems, backstepping adds a velocity-error term weighted by a metric;
+        we show that this metric decides whether the acceleration needed to satisfy the constraint stays bounded up to the boundary.
+        If $\psi$ is a quadratic plus a weighted self-concordant barrier and the metric is the Hessian of $\psi$, the needed
+        acceleration has an explicit bound that depends on the state only through the Lyapunov value, not on the distance to the
+        boundary; under an acceleration bound this gives recursive feasibility, invariance, and exponential convergence on explicit
+        sublevel sets. For every constant metric, of any scale, the needed acceleration grows like $1/\eta^2$ at slowly moving
+        states at distance $\eta$ from a polytope face. On a double integrator, the Hessian metric leaves the set only from states
+        that no bounded-acceleration controller can stop in time. On a simulated 7-DoF manipulator started near the boundary,
+        constant metrics left the set in up to 39&nbsp;% of trials, while the Hessian metric kept a positive margin at every logged step.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">The idea</h2>
+    <img src="static/images/fig_concept.png" alt="Level sets of the Bregman CLF, the metric schematic, and the acceleration demand near a face for the Hessian and constant metrics.">
+    <div class="content has-text-justified">
+      <p>
+        <b>(a)</b> For a log-barrier $\psi$ of a polytope, the sublevel sets of the Bregman CLF $V = D_\psi(x_d, x)$ lie inside the set,
+        so keeping $V$ from increasing keeps the state safe. Near a face, however, the gradient of $V$ grows like $1/\eta^2$.
+        <b>(b)</b> At relative degree two, backstepping adds the velocity error $s$, measured in a metric $\Gamma$:
+        $V_2 = D_\psi(x_d, x) + \tfrac12 s^\top \Gamma s$. The control must cancel a cross term between the steep gradient and $s$.
+        <b>(c)</b> With a constant $\Gamma$ this costs an acceleration that grows like $1/\eta^2$, even when the state approaches the face slowly.
+        With $\Gamma = \nabla^2\psi(x)$ the curvature appears on both sides and cancels: the needed acceleration stays bounded up to the boundary.
+        <b>(d)</b> Worst case over sublevel sets, with the explicit bound of Theorem&nbsp;2.
+      </p>
+    </div>
+    <div class="columns is-multiline results-cards">
+      <div class="column is-half">
+        <div class="box">
+          <p class="heading">Theorems 1 and 2</p>
+          <p>With the Hessian metric, the certificate decreases on the whole set, and the acceleration it needs has an explicit bound that does not depend on the distance to the boundary.</p>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="box">
+          <p class="heading">Proposition 1</p>
+          <p>For every constant metric, of any scale, the needed acceleration grows like $1/\eta^2$ at slowly approaching states near a polytope face.</p>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="box">
+          <p class="heading">Corollary 1</p>
+          <p>Under an acceleration bound, the Hessian metric gives recursive feasibility, invariance, and exponential convergence on explicit sublevel sets.</p>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="box">
+          <p class="heading">In practice</p>
+          <p>The constraint is one linear row of an inverse-dynamics QP. A control step of the manipulator controller takes 0.16&nbsp;ms in median (at most 0.30&nbsp;ms) on one unloaded CPU core.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="results">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Double integrator</h2>
+    <video autoplay muted loop playsinline controls>
+      <source src="static/videos/double_integrator.mp4" type="video/mp4">
+    </video>
+    <p class="caption">
+      One of the 100 starts of the study, under the acceleration bound $\|a\| \le 30$. Straight braking would stop this start well inside the set,
+      so it is recoverable. The constant-metric law runs into infeasible steps and leaves the set; the Hessian-metric law turns and converges. 2&times; slow motion.
+    </p>
+
+    <div class="table-container">
+      <table class="table is-narrow is-fullwidth results-table">
+        <caption>Trials with an infeasible step / trials leaving the set, out of 100 per cell, for each acceleration bound $\bar a$.</caption>
+        <thead>
+          <tr><th>Metric $\Gamma$</th><th>$\bar a = 10$</th><th>30</th><th>100</th><th>1000</th><th>3000</th></tr>
+        </thead>
+        <tbody>
+          <tr class="ours"><td>$\nabla^2\psi(x)$ (Hessian)</td><td>14 / 10</td><td>6 / 2</td><td>1 / 0</td><td>0 / 0</td><td>0 / 0</td></tr>
+          <tr><td>$I$</td><td>28 / 23</td><td>20 / 15</td><td>10 / 6</td><td>1 / 0</td><td>0 / 0</td></tr>
+          <tr><td>$\nabla^2\psi(x_d)$</td><td>28 / 26</td><td>21 / 17</td><td>10 / 7</td><td>1 / 0</td><td>0 / 0</td></tr>
+          <tr><td>$10^2 I$</td><td>38 / 38</td><td>37 / 37</td><td>36 / 36</td><td>24 / 25</td><td>16 / 16</td></tr>
+          <tr><td>$10^4 I$</td><td>35 / 38</td><td>25 / 38</td><td>16 / 38</td><td>8 / 38</td><td>4 / 37</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td>Hessian trials certified by the closed-form bound $K$</td><td>0</td><td>0</td><td>3</td><td>44</td><td>99</td></tr>
+          <tr><td>Hessian trials certified with the sampled worst demand</td><td>23</td><td>66</td><td>97</td><td>99</td><td>100</td></tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="content has-text-justified">
+      <ul>
+        <li>There are 10, 2, and 0 starts at $\bar a = 10, 30, 100$ that no bounded-acceleration controller can keep inside. Every exit of the Hessian metric is from one of them.</li>
+        <li>The constant metrics $I$ and $\nabla^2\psi(x_d)$ also leave the set from 13 and 16, 13 and 15, and 6 and 7 recoverable starts.</li>
+        <li>The closed-form bound $K$ is conservative: it exceeds the worst demand found by sampling the sublevel set by a median factor of 44.
+            With the sampled value in place of $K$ (a lower estimate, so evidence and not a proof), the certificate covers 23, 66, and 97 of the 100 starts.
+            From none of them did the Hessian metric meet an infeasible step, while $I$ and $\nabla^2\psi(x_d)$ left the set from 5 and 6 of them at $\bar a = 30$ and from 6 and 7 at $\bar a = 100$.</li>
+        <li>A braking-aware per-face control barrier function, with the same input bound, also leaves the set only from the unrecoverable starts.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Torque-controlled manipulator</h2>
+    <div class="content has-text-justified">
+      <p>
+        A simulated KUKA iiwa&nbsp;14 in MuJoCo runs an inverse-dynamics QP at 1&nbsp;kHz. The end effector must stay in a random 3-D polytope or a ball.
+        Each metric runs with the rate constraint and with the level constraint, in three conditions: nominal, torque bounds reduced to 30&nbsp;%, and starts
+        near the boundary with the arm moving toward it. These runs are empirical: the assumptions of Corollary&nbsp;1 were not verified for them.
+      </p>
+    </div>
+    <video autoplay muted loop playsinline controls>
+      <source src="static/videos/manipulator_seed19.mp4" type="video/mp4">
+    </video>
+    <p class="caption">A second near-boundary start (seed 19). Constant metric: outside by 63&nbsp;mm. Hessian metric: inside at every logged step.</p>
+
+    <div class="table-container">
+      <table class="table is-narrow is-fullwidth results-table">
+        <caption>80 trials per condition and row. QP-infeasible steps [%] and trials leaving the set by more than 1&nbsp;mm; deepest excursion over all conditions.</caption>
+        <thead>
+          <tr><th rowspan="2">Metric</th><th rowspan="2">Constraint</th><th colspan="2">Nominal</th><th colspan="2">30&nbsp;% torque</th><th colspan="2">Near boundary</th><th rowspan="2">Depth [mm]</th></tr>
+          <tr><th>inf.</th><th>out</th><th>inf.</th><th>out</th><th>inf.</th><th>out</th></tr>
+        </thead>
+        <tbody>
+          <tr><td rowspan="2">$I$</td><td>rate</td><td>0.15</td><td>0</td><td>1.22</td><td>1</td><td>29.36</td><td>22</td><td>129</td></tr>
+          <tr><td>level</td><td>0.04</td><td>0</td><td>1.03</td><td>1</td><td>27.10</td><td>22</td><td>129</td></tr>
+          <tr><td rowspan="2">$\nabla^2\psi(x_d)$</td><td>rate</td><td>0.22</td><td>0</td><td>1.13</td><td>1</td><td>37.48</td><td>31</td><td>138</td></tr>
+          <tr><td>level</td><td>0.05</td><td>0</td><td>1.06</td><td>1</td><td>36.31</td><td>30</td><td>138</td></tr>
+          <tr class="ours"><td rowspan="2">$\nabla^2\psi(x)$ (Hessian)</td><td>rate</td><td>0.19</td><td>0</td><td>0.11</td><td>0</td><td>0.58</td><td>0</td><td>0</td></tr>
+          <tr class="ours"><td>level</td><td>0.00</td><td>0</td><td>0.00</td><td>0</td><td>0.02</td><td>0</td><td>0</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="content has-text-justified">
+      <ul>
+        <li>The constant metrics fail almost only from near-boundary starts, where they are infeasible on 27&ndash;37&nbsp;% of steps and leave the set in up to 31 of 80 trials.</li>
+        <li>The Hessian metric never leaves at a logged step: its smallest margin over 480 polytope and ball trials is 0.19&nbsp;mm.</li>
+        <li>On the states within 1&nbsp;mm of the boundary visited by the Hessian-metric controller, the 99th percentile of the needed task acceleration is
+            2.4&nbsp;m/s&sup2; for the Hessian metric, against 431 for $I$ and 23 for $\nabla^2\psi(x_d)$.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Comparison and limits</h2>
+    <div class="content has-text-justified">
+      <p>
+        In a benchmark of 4 scenarios with targets inside the set (120 trials), the Hessian-metric controller with the level constraint violated no keep-in,
+        joint-position, or joint-velocity limit. A relaxed CLF with one exponential CBF per face left the set in 2 trials, with smoother torque.
+        Inverse dynamics with per-face CBFs stayed in the set but exceeded joint limits in 11 trials, and was more accurate
+        (median final error 0.12 against 0.30&nbsp;mm).
+      </p>
+      <p><b>What the experiments do not show.</b></p>
+      <ul>
+        <li>They do not show a consistent advantage over well-tuned per-face CBF compositions.</li>
+        <li>In a stress test with fast starts outside the certified sets, our controller left a box in 4 of 10 trials at 30&nbsp;% torque and 2 of 10 at 50&nbsp;%, by up to 72&nbsp;mm, where per-face inverse dynamics stayed inside.</li>
+        <li>The certificates are for the continuous-time nominal model. Sampling, delay, and model error are not covered, and all simulations use exact models.</li>
+        <li>The sets are convex and the target is constant.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Reproduce</h2>
+    <div class="content">
+      <p>The repository holds the core implementation, the experiment scripts and configurations, and the small result files behind every number above.</p>
+<pre><code>git clone https://github.com/domrachev03/bregman-clf.git
+cd bregman-clf
+pixi install
+# see README.md for one command per table and figure</code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3">BibTeX</h2>
+<pre><code>@misc{bregmanclf2026,
+  title  = {Bregman Control Lyapunov Functions: Hessian-Metric Backstepping for Convex State Constraints},
+  author = {Domrachev, Ivan and others},
+  year   = {2026},
+  note   = {Preprint},
+  url    = {https://domrachev03.github.io/bregman-clf}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container is-max-desktop content has-text-centered">
+    <p class="is-size-7">
+      Page layout in the style of the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project page
+      (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>).
+      A large language model assistant was used to help prepare this page, the text of the paper, and the experiment code; the authors reviewed the content.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

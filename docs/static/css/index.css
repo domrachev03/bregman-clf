@@ -1,0 +1,142 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #2b2b2b;
+  background: #ffffff;
+}
+
+.publication-title,
+.publication-subtitle {
+  font-family: "Castoro", "Noto Sans", serif;
+}
+
+.publication-title {
+  margin-bottom: 0.4rem !important;
+}
+
+.publication-subtitle {
+  color: #4a4a4a !important;
+  margin-top: 0 !important;
+}
+
+.publication-authors {
+  margin-top: 1rem;
+}
+
+.author-block {
+  display: inline-block;
+  margin: 0 0.3rem;
+}
+
+.publication-venue {
+  margin-top: 0.4rem;
+}
+
+.publication-links {
+  margin-top: 1.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.hero-body {
+  padding-bottom: 1.5rem;
+}
+
+.section {
+  padding: 2.5rem 1.5rem;
+}
+
+.section.alt {
+  background: #f7f8fa;
+}
+
+.section.teaser {
+  padding-top: 0.5rem;
+}
+
+video,
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+video {
+  border: 1px solid #e3e6ea;
+  background: #ffffff;
+}
+
+.caption {
+  margin: 0.8rem auto 1.5rem;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+  max-width: 46rem;
+}
+
+.results-cards {
+  margin-top: 1rem;
+}
+
+.results-cards .box {
+  height: 100%;
+  box-shadow: none;
+  border: 1px solid #e3e6ea;
+}
+
+.results-cards .heading {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #1f5fa8;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.4rem;
+}
+
+.results-table {
+  background: transparent;
+  font-size: 0.92rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.results-table caption {
+  caption-side: top;
+  text-align: left;
+  color: #555;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.results-table th,
+.results-table td {
+  text-align: right;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.results-table th:first-child,
+.results-table td:first-child {
+  text-align: left;
+  white-space: normal;
+}
+
+.results-table tr.ours td {
+  background: #eaf2fb;
+  font-weight: 600;
+}
+
+.results-table tfoot td {
+  color: #444;
+  border-top: 2px solid #dbdbdb;
+}
+
+pre {
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.footer {
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+}

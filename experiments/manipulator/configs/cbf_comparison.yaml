@@ -1,0 +1,32 @@
+# Comparison with per-face CBF QPs: 4 scenarios with targets inside the keep-in set x 4 methods x
+# 30 seeds = 480 episodes. The gains are the result of one tuning protocol applied to every method
+# and are fixed here.
+name: cbf_comparison
+output_dir: runs/cbf_comparison
+scenarios:
+- name: iiwa_constraints_joint_stress
+  options: {T: 2.0}
+- name: iiwa_constraints_keep_in_box
+  options: {T: 2.0}
+- name: iiwa_constraints_keep_in_ellipsoid
+  options: {T: 2.0}
+- name: iiwa_constraints_fast_motions
+  options: {T: 2.0}
+methods:
+- name: bregman_id
+  label: bregman_id_level
+  kw: {mu: 0.001, clf_mode: level, k: 5.0, soft_weight: 0.01}
+- name: clf_aecbf
+  label: clf_aecbf
+  kw: {eps: 0.2, alpha: 5.0, clf_slack_weight: 0.001}
+- name: tsid_cbf
+  label: tsid_cbf
+  kw:
+    gains: {kp: 30.0, kd: 10.954451150103322}
+    alpha: 80.0
+- name: tsid
+  label: tsid
+  kw:
+    gains: {kp: 30.0, kd: 10.954451150103322}
+seeds: {n: 30, start: 0}
+metrics: {eps_v: 0.001, eps: 0.005, T_dl: 0.5, conv_tol: 0.005}

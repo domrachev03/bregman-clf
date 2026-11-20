@@ -1,0 +1,152 @@
+{
+ "10": {
+  "unrecoverable": 10,
+  "recoverable": 90,
+  "undetermined": 0,
+  "hess": {
+   "unrecoverable": 10,
+   "recoverable": 0,
+   "undetermined": 0
+  },
+  "I": {
+   "unrecoverable": 10,
+   "recoverable": 13,
+   "undetermined": 0
+  },
+  "target": {
+   "unrecoverable": 10,
+   "recoverable": 16,
+   "undetermined": 0
+  },
+  "I1e+02": {
+   "unrecoverable": 10,
+   "recoverable": 28,
+   "undetermined": 0
+  },
+  "I1e+04": {
+   "unrecoverable": 10,
+   "recoverable": 28,
+   "undetermined": 0
+  }
+ },
+ "30": {
+  "unrecoverable": 2,
+  "recoverable": 98,
+  "undetermined": 0,
+  "hess": {
+   "unrecoverable": 2,
+   "recoverable": 0,
+   "undetermined": 0
+  },
+  "I": {
+   "unrecoverable": 2,
+   "recoverable": 13,
+   "undetermined": 0
+  },
+  "target": {
+   "unrecoverable": 2,
+   "recoverable": 15,
+   "undetermined": 0
+  },
+  "I1e+02": {
+   "unrecoverable": 2,
+   "recoverable": 35,
+   "undetermined": 0
+  },
+  "I1e+04": {
+   "unrecoverable": 2,
+   "recoverable": 36,
+   "undetermined": 0
+  }
+ },
+ "100": {
+  "unrecoverable": 0,
+  "recoverable": 100,
+  "undetermined": 0,
+  "hess": {
+   "unrecoverable": 0,
+   "recoverable": 0,
+   "undetermined": 0
+  },
+  "I": {
+   "unrecoverable": 0,
+   "recoverable": 6,
+   "undetermined": 0
+  },
+  "target": {
+   "unrecoverable": 0,
+   "recoverable": 7,
+   "undetermined": 0
+  },
+  "I1e+02": {
+   "unrecoverable": 0,
+   "recoverable": 36,
+   "undetermined": 0
+  },
+  "I1e+04": {
+   "unrecoverable": 0,
+   "recoverable": 38,
+   "undetermined": 0
+  }
+ },
+ "1000": {
+  "unrecoverable": 0,
+  "recoverable": 100,
+  "undetermined": 0,
+  "hess": {
+   "unrecoverable": 0,
+   "recoverable": 0,
+   "undetermined": 0
+  },
+  "I": {
+   "unrecoverable": 0,
+   "recoverable": 0,
+   "undetermined": 0
+  },
+  "target": {
+   "unrecoverable": 0,
+   "recoverable": 0,
+   "undetermined": 0
+  },
+  "I1e+02": {
+   "unrecoverable": 0,
+   "recoverable": 25,
+   "undetermined": 0
+  },
+  "I1e+04": {
+   "unrecoverable": 0,
+   "recoverable": 38,
+   "undetermined": 0
+  }
+ },
+ "3000": {
+  "unrecoverable": 0,
+  "recoverable": 100,
+  "undetermined": 0,
+  "hess": {
+   "unrecoverable": 0,
+   "recoverable": 0,
+   "undetermined": 0
+  },
+  "I": {
+   "unrecoverable": 0,
+   "recoverable": 0,
+   "undetermined": 0
+  },
+  "target": {
+   "unrecoverable": 0,
+   "recoverable": 0,
+   "undetermined": 0
+  },
+  "I1e+02": {
+   "unrecoverable": 0,
+   "recoverable": 16,
+   "undetermined": 0
+  },
+  "I1e+04": {
+   "unrecoverable": 0,
+   "recoverable": 37,
+   "undetermined": 0
+  }
+ }
+}

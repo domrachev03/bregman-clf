@@ -1,0 +1,41 @@
+{
+  "cpu": "Intel(R) Core(TM) i5-14600KF",
+  "affinity": [
+    9
+  ],
+  "methods": {
+    "tsid_cbf": {
+      "total_p50_us": 158.78049453021958,
+      "total_p99_us": 185.51851011579853,
+      "solve_p50_us": 13.028504326939583,
+      "solve_p99_us": 18.92235086415893,
+      "total_p999_us": 227.65552057535487,
+      "total_max_us": 280.85500525776297,
+      "solve_max_us": 34.62500171735883,
+      "n_steps": 5940,
+      "total_max_all_repeats_us": 368.0700028780848
+    },
+    "clf_aecbf": {
+      "total_p50_us": 161.3589993212372,
+      "total_p99_us": 183.90823854133484,
+      "solve_p50_us": 13.021999620832503,
+      "solve_p99_us": 18.575345893623293,
+      "total_p999_us": 234.2336115252708,
+      "total_max_us": 273.8399925874546,
+      "solve_max_us": 37.80999395530671,
+      "n_steps": 5940,
+      "total_max_all_repeats_us": 334.2569980304688
+    },
+    "bregman_id_level": {
+      "total_p50_us": 159.37800344545394,
+      "total_p99_us": 182.21098187495943,
+      "solve_p50_us": 12.994998542126268,
+      "solve_p99_us": 17.887490394059565,
+      "total_p999_us": 227.34221418795698,
+      "total_max_us": 260.9329967526719,
+      "solve_max_us": 27.8410007013008,
+      "n_steps": 5940,
+      "total_max_all_repeats_us": 297.2469956148416
+    }
+  }
+}

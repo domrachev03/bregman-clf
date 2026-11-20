@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bregman-clf"
+version = "0.1.0"
+description = "Bregman control Lyapunov functions with Hessian-metric backstepping: library and paper experiments"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cvxlbs", "src/cvxlbs_playground"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"

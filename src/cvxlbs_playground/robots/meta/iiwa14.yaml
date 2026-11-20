@@ -1,0 +1,13 @@
+# KUKA iiwa 14 (MuJoCo Menagerie MJCF via `robot_descriptions.iiwa14_mj_description`): 7 revolute joints.
+# Position limits and joint names are read from the model at load time.
+
+ee_frame: attachment_site  # MJCF <site>, available in Pinocchio as an operational frame
+
+# Actuator limits (N*m), joint1 .. joint7.
+torque_limits: [320.0, 320.0, 176.0, 176.0, 110.0, 40.0, 40.0]
+
+# Velocity limits (rad/s) from the datasheet values [85, 85, 100, 75, 130, 135, 135] deg/s.
+velocity_limits: [1.48353, 1.48353, 1.745329, 1.308997, 2.268928, 2.356194, 2.356194]
+
+# Home configuration (rad): elbow-bent ready pose.
+home: [0.0, 0.785398, 0.0, -1.5708, 0.0, 0.0, 0.0]
